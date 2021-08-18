@@ -264,7 +264,19 @@ button
     background-size: cover;
 }
 
-
+.skills{
+    padding: 2rem 0;
+    margin: auto;
+}
+.skills img{
+    height: 150px;
+    width: 120px;
+}
+.skill-set{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /** 4. Content Area
 *******************************************************************/
@@ -289,7 +301,7 @@ button
 .content-area .content-area-inner section
 {
     max-width: 700px;
-    margin: 0 auto 20vh auto;
+    margin: 0 auto 7vh auto;
 }
 
 .content-area .content-area-inner section:last-child
@@ -955,7 +967,6 @@ button
     height: 3.4em;
     padding: 0;
 }
-
 #contact #contact-form textarea
 {
     line-height: 1.7em;
