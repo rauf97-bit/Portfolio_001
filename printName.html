@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rebeccapurple;
+            overflow: hidden;
+        }
+        .my-name{
+            text-transform: capitalize;
+             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-shadow: -2px -1px 3px gray;
+            font-size: 4rem;
+            text-align: center;
+            transition: all ease-in-out 0.4s;
+        }
+        .my-name:hover{
+            color: white;
+            text-shadow: 2px 1px 3px #000;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+
+    <script>
+        let myName = document.querySelector("h1")
+        myName.classList.add("my-name")
+        myName.textContent = "abdulrauf inusa isa"
+        let printName = myName.textContent
+        console.log(printName);
+    </script>
+</body>
+</html>
