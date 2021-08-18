@@ -272,10 +272,26 @@ button
     height: 150px;
     width: 120px;
 }
+.languages{
+    flex-wrap: wrap;
+}
 .skill-set{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media (max-width: 468px) {
+    .skills img{
+        height: 130px;
+        width: 100px;
+    }
+    .skills h2{
+        text-align: center;
+    }
+    .skills .d-flex{
+        justify-content: space-around ;
+    }
 }
 
 /** 4. Content Area
