@@ -269,8 +269,8 @@ button
     margin: auto;
 }
 .skills img{
-    height: 150px;
-    width: 120px;
+    height: 130px;
+    width: 100px;
 }
 .languages{
     flex-wrap: wrap;
@@ -316,7 +316,7 @@ button
 
 .content-area .content-area-inner section
 {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto 7vh auto;
 }
 
